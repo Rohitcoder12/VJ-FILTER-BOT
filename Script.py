@@ -229,9 +229,12 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """𝗛𝗲𝗿𝗲'𝘀 𝗬𝗼𝘂𝗿 𝗦𝗲𝗮𝗿𝗰𝗵𝗲𝗱 𝗠𝗼𝘃𝗶𝗲..
 
-<b> Size ⚙️: {file_size}</b>""" 
+<code>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</code>
+<b> Size ⚙️: {file_size}</b>
+
+➠ Team @RexonBlack copyright.""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
