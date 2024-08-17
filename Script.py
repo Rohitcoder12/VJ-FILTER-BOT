@@ -232,7 +232,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """𝗛𝗲𝗿𝗲'𝘀 𝗬𝗼𝘂𝗿 𝗦𝗲𝗮𝗿𝗰𝗵𝗲𝗱 𝗠𝗼𝘃𝗶𝗲..
 
 <code>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</code>
-<b> Size ⚙️: {file_size}</b>
+<code> Size ⚙️: {file_size}</code>
 
 ➠ Team @RexonBlack copyright.""" 
 
