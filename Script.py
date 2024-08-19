@@ -233,20 +233,16 @@ Nᴀᴍᴇ - {}"""
 
 ➠ Team @RexonBlack copyright.""" 
 
-    IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
+    IMDB_TEMPLATE_TXT = """
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🏷 Title</b>: <a href={url}>{title}</a>\n
 ◆ Genre: {genres}
 ◆ Year: <a href={url}/releaseinfo>{year}</a>
 ◆ Rating: <a href={url}/ratings>{rating}</a> / 10
 ◆ Languages : {languages}
 ◆ RunTime: {runtime} Minutes
 ◆ Release Info : {release_date}
-◆ Countries : {countries}
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i>
-
+◆ Countries : {countries}\n⏰Result Shown in: {remaining_seconds} <i>seconds</i>
 Requested by : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
