@@ -242,8 +242,7 @@ Nᴀᴍᴇ - {}"""
 ◆ Languages : {languages}
 ◆ RunTime: {runtime} Minutes
 ◆ Release Info : {release_date}
-◆ Countries : {countries}\n⏰Result Shown in: {remaining_seconds} <i>seconds</i>
-Requested by : {message.from_user.mention}</b>"""
+◆ Countries : {countries}\n\n⏰Result Shown in: {remaining_seconds} <i>seconds</i>\nRequested by : {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
