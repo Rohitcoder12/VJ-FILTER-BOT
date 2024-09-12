@@ -696,13 +696,13 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Developer [Owner of this bot ]<a href='https://t.me/Rexonblood'>VJ</a>
+-Developer [Owner of this bot ]<a href='https://t.me/Rexonblood'>Rexon Blood</a>
 
--Support <a href='https://t.me/RexonBlackSupport'>VJ</a>
+-Support <a href='https://t.me/RexonBlackSupport'>Rexon Black Support</a>
 
--Update <a href='https://t.me/RexonBlack>VJ Botz</a>
+-Update <a href='https://t.me/RexonBlack>Rexon Black</a>
 
--Movies  <a href='https://t.me/+2zdP_pnThuY0YmI1'>TEAM VJ</a>
+-Movies  <a href='https://t.me/+TdzVBWBIji8yMmFl'>Rexon Movies</a>
 """
 
     RENAME_TXT = """
