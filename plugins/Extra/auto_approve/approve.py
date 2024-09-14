@@ -104,7 +104,7 @@ async def auto_approve(client, message: ChatJoinRequest):
             if is_valid == True:
                 await client.send_message(
                     chat_id=message.from_user.id,
-                    text=f"<b>𝐇𝐞𝐲 {message.from_user.mention}, 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 !\n𝐍𝐨𝐰 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐮𝐧𝐥𝐢𝐦𝐢𝐭𝐞𝐝 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐨𝐫 𝐚𝐥𝐥 𝐦𝐨𝐯𝐢𝐞𝐬 𝐚𝐧𝐝 𝐯𝐢𝐝𝐞𝐨𝐬 𝐭𝐢𝐥𝐥 𝐭𝐨𝐝𝐚𝐲 𝐦𝐢𝐝𝐧𝐢𝐠𝐡𝐭</b>",
+                    text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
                     protect_content=True
                 )
                 await verify_user(client, userid, token)
