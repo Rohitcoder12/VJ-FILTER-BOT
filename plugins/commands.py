@@ -587,7 +587,7 @@ async def start(client, message):
             k = await msg.reply("𝗙𝗶𝗹𝗲 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗕𝗲𝗰𝗮𝘂𝘀𝗲 𝗼𝗳 𝗰𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 𝗶𝘀𝘀𝘂𝗲..✍🏻\n\n𝗜𝗳 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲, 𝗞𝗶𝗻𝗱𝗹𝘆 𝗳𝗼𝗿𝘄𝗼𝗿𝗱 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲 𝘁𝗼 𝗮𝗻𝘆 𝗼𝘁𝗵𝗲𝗿 𝗰𝗵𝗮𝘁 𝗼𝗿 𝗶𝗻 𝘆𝗼𝘂𝗿 [𝘀𝗮𝘃𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀] 𝗮𝗻𝗱 𝘀𝘁𝗮𝗿𝘁 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗲𝗿𝗲...",quote=True)
             await asyncio.sleep(600)
             await msg.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+            await k.edit_text("𝐘𝐨𝐮𝐫 𝐟𝐢𝐥𝐞 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝",reply_markup=InlineKeyboardMarkup(btn))
             return
         except:
             pass
@@ -646,7 +646,7 @@ async def start(client, message):
     k = await msg.reply("𝗙𝗶𝗹𝗲 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗶𝗻 𝟭𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗕𝗲𝗰𝗮𝘂𝘀𝗲 𝗼𝗳 𝗰𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 𝗶𝘀𝘀𝘂𝗲..✍🏻\n\n𝗜𝗳 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲, 𝗞𝗶𝗻𝗱𝗹𝘆 𝗳𝗼𝗿𝘄𝗼𝗿𝗱 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲 𝘁𝗼 𝗮𝗻𝘆 𝗼𝘁𝗵𝗲𝗿 𝗰𝗵𝗮𝘁 𝗼𝗿 𝗶𝗻 𝘆𝗼𝘂𝗿 [𝘀𝗮𝘃𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀] 𝗮𝗻𝗱 𝘀𝘁𝗮𝗿𝘁 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗲𝗿𝗲...",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
-    await k.edit_text("<b>Your File is successfully deleted!!!\nClick below button to get your deleted file</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("𝐘𝐨𝐮𝐫 𝐟𝐢𝐥𝐞 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 ",reply_markup=InlineKeyboardMarkup(btn))
     return   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
