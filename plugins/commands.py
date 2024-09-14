@@ -389,7 +389,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
+                text=f"<b>𝐇𝐞𝐲 {message.from_user.mention}, 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 !\n𝐍𝐨𝐰 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐮𝐧𝐥𝐢𝐦𝐢𝐭𝐞𝐝 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐨𝐫 𝐚𝐥𝐥 𝐦𝐨𝐯𝐢𝐞𝐬 𝐚𝐧𝐝 𝐯𝐢𝐝𝐞𝐨𝐬 𝐭𝐢𝐥𝐥 𝐭𝐨𝐝𝐚𝐲 𝐦𝐢𝐝𝐧𝐢𝐠𝐡𝐭</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -467,7 +467,7 @@ async def start(client, message):
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="𝐘𝐨𝐮'𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 𝐜𝐥𝐢𝐜𝐤 𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐯𝐞𝐫𝐢𝐟𝐲 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐢𝐟 𝐲𝐨𝐮 𝐧𝐨𝐭 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐡𝐞𝐧 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 /plan",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -540,7 +540,7 @@ async def start(client, message):
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="𝐘𝐨𝐮'𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 𝐜𝐥𝐢𝐜𝐤 𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐯𝐞𝐫𝐢𝐟𝐲 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐢𝐟 𝐲𝐨𝐮 𝐧𝐨𝐭 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐡𝐞𝐧 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 /plan",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
