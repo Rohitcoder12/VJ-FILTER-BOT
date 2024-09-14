@@ -105,7 +105,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 await client.send_message(
                     chat_id=message.from_user.id,
                     text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
-                    protect_content=True
+                 
                 )
                 await verify_user(client, userid, token)
             else:
@@ -318,7 +318,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 await client.send_message(
                     chat_id=message.from_user.id,
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
-                    protect_content=True,
+                   
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
                 return
