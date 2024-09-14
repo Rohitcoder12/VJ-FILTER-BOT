@@ -175,7 +175,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         ]]
                         await client.send_message(
                             chat_id=message.from_user.id,
-                            text="𝐘𝐨𝐮'𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 𝐜𝐥𝐢𝐜𝐤 𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐯𝐞𝐫𝐢𝐟𝐲 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐢𝐟 𝐲𝐨𝐮 𝐧𝐨𝐭 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐡𝐞𝐧 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 /plan",
+                            text="<b>You are not verified !\nKindly verify to continue !</b>",
                             protect_content=True,
                             reply_markup=InlineKeyboardMarkup(btn)
                         )
@@ -244,7 +244,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         ]]
                         await client.send_message(
                             chat_id=message.from_user.id,
-                            text="𝐘𝐨𝐮'𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 𝐜𝐥𝐢𝐜𝐤 𝐛𝐞𝐥𝐨𝐰 𝐚𝐧𝐝 𝐯𝐞𝐫𝐢𝐟𝐲 𝐲𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐢𝐟 𝐲𝐨𝐮 𝐧𝐨𝐭 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐡𝐞𝐧 𝐩𝐮𝐫𝐜𝐡𝐚𝐬𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 /plan",
+                            text="<b>You are not verified !\nKindly verify to continue !</b>",
                             protect_content=True,
                             reply_markup=InlineKeyboardMarkup(btn)
                         )
