@@ -17,7 +17,7 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Rexonblood'>ʀᴇxᴏɴ ʙʟᴀᴄᴋ</a> 
+    ABOUT_TXT = """ 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -27,8 +27,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴄʟᴏɴᴇᴅ ғʀᴏᴍ : <a href=https://t.me/{}>{}</a>
+‣ ᴍʏ ʙᴇsᴛ ꜰʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+‣ ᴄʟᴏɴᴇᴅ ꜰʀᴏᴍ : <a href=https://t.me/{}>{}</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -109,9 +109,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/RexonBlood>Rexon Blood</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/Dailynewswalla>Daily News Walla</a></b>
   
- <b>✯ Join here : <a href=https://t.me/RexonBlack>ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ</a></b> 
+ <b>✯ Join here : <a href=https://t.me/Dailynewswalla>ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -231,7 +231,7 @@ Nᴀᴍᴇ - {}"""
 <code>📂Fɪʟᴇɴᴀᴍᴇ :{file_name}</code>
 <code>Size⚙️:{file_size}</code>
 
-➠ Team @RexonBlack copyright.""" 
+➠ Team @Dailynewswalla copyright.""" 
 
     IMDB_TEMPLATE_TXT = """
 
@@ -696,13 +696,13 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Developer [Owner of this bot ]<a href='https://t.me/Rexonblood'>Rexon Blood</a>
+-Developer [Owner of this bot ]<a href='https://t.me/dailynewswalla'>Daily News Walla</a>
 
--Support <a href='https://t.me/RexonBlackSupport'>Rexon Black Support</a>
+-Support <a href='https://t.me/dailynewswallachat'>Support Chat</a>
 
--Update <a href='https://t.me/RexonBlack>Rexon Black</a>
+-Update <a href='https://t.me/Dailynewswalla>Rexon Black</a>
 
--Movies  <a href='https://t.me/+TdzVBWBIji8yMmFl'>Rexon Movies</a>
+-Movies  <a href='https://t.me/+Y1iO1QeGNs1mMjhl'>Rexon Movies</a>
 """
 
     RENAME_TXT = """
